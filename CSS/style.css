@@ -1,0 +1,15 @@
+.calcBody {
+    background-color: black;
+}
+
+
+.calcScreen {
+    background-color: rgba(119, 195, 119, 0.644);
+    width: 100px;
+    height: 20px;
+}
+
+.calcButtons {
+    height: 55px;
+    border-radius: 50%;
+}
