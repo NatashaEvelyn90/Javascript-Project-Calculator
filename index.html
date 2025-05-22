@@ -5,40 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     <title>Math Calculations</title>
 </head>
 <body>
-    <h1>Need some calculation help?</h1>
-    <div class="calcBody">
-        <div class="calcScreen"></div>
-        <div class="container w-75">
-            <div class="row mt-3 mb-3 w-50">
-                <button type="button" class="calcButtons col-1 p-0">7</button>
-                <button type="button" class="calcButtons col-1 p-0">8</button>
-                <button type="button" class="calcButtons col-1 p-0">9</button>
-                <button type="button" class="calcButtons col-1 p-0">/</button>
+    <h1 class="mb-5">Need some calculation help?</h1>
+    <div>
+        <div class="container d-flex justify-content-center">
+            <div class="d-flex flex-column flex-wrap align-items-center w-25 calcBody">
+                <div class="calcScreen mt-4 mb-3">
+                    <div class="textScreen">hello</div>
+                </div>
+                <div class="row mt-3 mb-3 w-100 justify-content-center">
+                    <button type="button" class="clear colorThree col-4 p-0 me-1">AC</button>
+                    <button type="button" class="calcButtons colorOne col-2 p-0">/</button>
+                    <button type="button" class="calcButtons colorTwo col-2 p-0">*</button>
+                </div>
+
+                <div class="row mt-3 mb-3 w-100 justify-content-center">
+                    <button type="button" class="calcButtons colorOne col-2 p-0">7</button>
+                    <button type="button" class="calcButtons colorTwo col-2 p-0">8</button>
+                    <button type="button" class="calcButtons colorOne col-2 p-0">9</button>
+                    <button type="button" class="calcButtons colorTwo col-2 p-0">-</button>
+                </div>
+    
+                <div class="row mt-3 mb-3 w-100 justify-content-center">
+                    <button type="button" class="calcButtons colorOne col-2 p-0">4</button>
+                    <button type="button" class="calcButtons colorTwo col-2 p-0">5</button>
+                    <button type="button" class="calcButtons colorOne col-2 p-0">6</button>
+                    <button type="button" class="calcButtons colorTwo col-2 p-0">+</button>
+                </div>
+    
+                 <div class="row mt-3 mb-3 w-100 justify-content-center">
+                     <button type="button" class="calcButtons colorOne col-2 p-0">1</button>
+                     <button type="button" class="calcButtons colorTwo col-2 p-0">2</button>
+                     <button type="button" class="calcButtons colorOne col-2 p-0">3</button>
+                     <button type="button" class="calcButtons colorTwo col-2 p-0">:p</button>
+                 </div> 
+    
+                 <div class="row mt-3 mb-3 w-100 justify-content-center">
+                     <button type="button" class="calcButtons colorOne col-2 p-0">.</button>
+                     <button type="button" class="calcButtons colorTwo col-2 p-0">0</button>
+                     <button type="button" class="calcButtons colorOne col-2 p-0">00</button>
+                     <button type="button" class="equal colorFour col-2 p-0 ms-1">=</button
+                 </div>  
+
             </div>
-
-            <div class="row mt-3 mb-3 w-50">
-                <button type="button" class="calcButtons col-1 p-0">4</button>
-                <button type="button" class="calcButtons col-1 p-0">5</button>
-                <button type="button" class="calcButtons col-1 p-0">6</button>
-                <button type="button" class="calcButtons col-1 p-0">X</button>
-            </div>
-
-             <div class="row mt-3 mb-3 w-50">
-                 <button type="button" class="calcButtons col-1 p-0">1</button>
-                 <button type="button" class="calcButtons col-1 p-0">2</button>
-                 <button type="button" class="calcButtons col-1 p-0">1</button>
-                 <button type="button" class="calcButtons col-1 p-0">-</button>
-             </div> 
-
-             <div class="row mt-3 mb-3 w-50">
-                 <button type="button" class="calcButtons col-1 p-0">AC</button>
-                 <button type="button" class="calcButtons col-1 p-0">.</button>
-                 <button type="button" class="calcButtons col-1 p-0">=</button>
-                 <button type="button" class="calcButtons col-1 p-0">+</button>
-             </div>  
         </div>
     </div>
     <script src="./JS/app.js"></script>

@@ -1,15 +1,93 @@
-.calcBody {
-    background-color: black;
+
+h1 {
+    text-align: center;
 }
 
+.calcBody {
+    background-color: green;
+    border-radius: 16px;
+    box-shadow: 11px 12px 20px 8px black;
+    background: #042404;
+background: radial-gradient(circle farthest-corner at bottom right, #042404 21%, #97B273 54%, #47B300 87%);
+}
+
+.container {
+font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 .calcScreen {
     background-color: rgba(119, 195, 119, 0.644);
-    width: 100px;
-    height: 20px;
+    width: 240px;
+    height: 55px;
+    border-radius: 14px;
+    border: 2px solid rgba(0, 0, 0, 0.664);
 }
 
 .calcButtons {
     height: 55px;
     border-radius: 50%;
+    margin: 2px; 
+    box-shadow: inset 2px 1px 10px 1px #060d09d9;
+    color: rgba(232, 235, 232, 0.897);
+    border: none;
+    font-size: xx-large;
+}
+
+.colorOne {
+background-color: rgba(95, 196, 95, 0.717);
+}
+
+.colorTwo {
+ background-color: rgba(16, 87, 16, 0.71);
+}
+
+.colorThree {
+    background-color: rgba(180, 23, 23, 0.801);
+    box-shadow: inset 2px 3px 10px 2px #060d09d9;
+    color: rgba(232, 235, 232, 0.897);
+    border: none;
+    font-size: xx-large;
+    border-radius: 16px;
+}
+
+.colorFour {
+    background-color: blue;
+    box-shadow: inset 2px 2px 10px 2px #060d09d9;
+    color: rgba(232, 235, 232, 0.897);
+    border: none;
+    font-size: xx-large;
+    border-radius: 16px;
+}
+
+.colorOne:active {
+    background-color: rgba(164, 196, 95, 0.717);
+    box-shadow: inset 2px 2px 10px 2px #042404;
+    border: 4px solid black;
+}
+
+.colorTwo:active {
+    background-color: rgba(164, 196, 95, 0.717);
+    box-shadow: inset 2px 2px 10px 2px #042404;
+    border: 4px solid black;
+}
+
+.colorThree:active {
+    background-color: rgba(142, 16, 16, 0.795);
+    box-shadow: inset 2px 2px 10px 2px #042404;
+    border: 4px solid black;
+}
+
+.colorFour:active {
+    background-color: rgba(37, 42, 186, 0.854);
+    box-shadow: inset 2px 1px 10px 2px #042404;
+    border: 4px solid black;
+}
+
+.textScreen {
+    text-align: center;
+    margin-top: 14px;
+    font-size: larger;
+    font-weight: 900;
 }
