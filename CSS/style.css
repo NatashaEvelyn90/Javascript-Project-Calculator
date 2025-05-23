@@ -17,13 +17,6 @@ font-family: "Kode Mono", monospace;
   font-style: normal;
 }
 
-.calcScreen {
-    background-color: rgba(119, 195, 119, 0.644);
-    width: 240px;
-    height: 55px;
-    border-radius: 14px;
-    border: 2px solid rgba(0, 0, 0, 0.664);
-}
 
 .calcButtons {
     height: 55px;
@@ -88,6 +81,10 @@ background-color: rgba(95, 196, 95, 0.717);
 .textScreen {
     text-align: center;
     margin-top: 14px;
-    font-size: larger;
     font-weight: 900;
+    background-color: rgba(119, 195, 119, 0.644);
+    width: 240px;
+    height: 55px;
+    border: 2px solid rgba(0, 0, 0, 0.402);
+    border-radius: 14px;
 }
