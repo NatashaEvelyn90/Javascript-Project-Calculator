@@ -20,7 +20,6 @@ font-family: "Kode Mono", monospace;
 
 .calcButtons {
     height: 55px;
-    border-radius: 50%;
     margin: 2px; 
     box-shadow: inset 2px 1px 10px 1px #060d09d9;
     color: rgba(232, 235, 232, 0.897);
@@ -42,7 +41,7 @@ background-color: rgba(95, 196, 95, 0.717);
     color: rgba(232, 235, 232, 0.897);
     border: none;
     font-size: xx-large;
-    border-radius: 16px;
+    /* border-radius: 16px; */
 }
 
 .colorFour {
@@ -51,7 +50,7 @@ background-color: rgba(95, 196, 95, 0.717);
     color: rgba(232, 235, 232, 0.897);
     border: none;
     font-size: xx-large;
-    border-radius: 16px;
+    /* border-radius: 16px; */
 }
 
 .colorOne:active {
@@ -83,7 +82,7 @@ background-color: rgba(95, 196, 95, 0.717);
     margin-top: 14px;
     font-weight: 900;
     background-color: rgba(119, 195, 119, 0.644);
-    width: 240px;
+    width: 450px;
     height: 55px;
     border: 2px solid rgba(0, 0, 0, 0.402);
     border-radius: 14px;
